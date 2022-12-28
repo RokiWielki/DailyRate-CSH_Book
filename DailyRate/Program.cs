@@ -16,7 +16,8 @@ namespace DailyRate
             Console.WriteLine($"Fee is {calculateFee()}\n");
             Console.WriteLine($"Fee is {calculateFee(650.0)}\n");
             Console.WriteLine($"Fee is {calculateFee(500.0,3)}\n");
-
+            Console.WriteLine($"Fee is {calculateFee(noOfDays:4)}\n");
+            Console.WriteLine($"Fee is {calculateFee(dailyRate:500.0)}\n");
 
         }
         private double calculateFee(double dailyRate=500.0,int noOfDays = 1)
